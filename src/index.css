@@ -1,0 +1,23 @@
+html,
+body {
+	margin: 0;
+}
+
+.App {
+	min-height: 100vh;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	background-color: #27272c;
+	color: #c5c5ce;
+	font-family: sans-serif;
+}
+
+main {
+	margin: 0 auto;
+	max-width: 80ch;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
